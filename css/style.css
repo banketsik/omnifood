@@ -668,3 +668,28 @@
 .footer-link:active {
   color: #555555;
 }
+
+.footer-social-link:link,
+.footer-social-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #333333;
+  transition: all 0.3s;
+}
+
+.footer-social-link:hover .social-icon {
+  transform: rotateY(360deg);
+  transition: all .5s;
+}
+
+.footer-social-link ion-icon[name="logo-instagram"]:hover {
+  color: #dd4b39;
+}
+
+.footer-social-link ion-icon[name="logo-facebook"]:hover {
+  color: #3b5998;
+}
+
+.footer-social-link ion-icon[name="logo-twitter"]:hover {
+  color: #55ecee;
+}
